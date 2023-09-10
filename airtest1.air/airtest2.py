@@ -27,5 +27,5 @@ touch(Template(r"img/tpl1650378666127.png", record_pos=(-0.318, -0.805), resolut
 text("大佬")
 touch(Template(r"img/tpl1650378717035.png", record_pos=(0.369, -0.809), resolution=(1080, 2340)))
 assert_exists(Template(r"img/tpl1650378822541.png", record_pos=(0.008, -0.343), resolution=(1080, 2340)), "请填写测试点")
-#
+
 stop_app(app)
